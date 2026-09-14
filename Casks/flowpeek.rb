@@ -2,8 +2,7 @@ cask "flowpeek" do
   version "0.25.10"
   sha256 "b5b019c21f701ec7e227d429cf0ee27867ba6b5598dda5c5d9f08448df160253"
 
-  url "https://github.com/FlowPeek/flowpeek/releases/download/v#{version}/FlowPeek-#{version}.dmg",
-      verified: "github.com/FlowPeek/flowpeek/"
+  url "https://github.com/FlowPeek/flowpeek/releases/download/v#{version}/FlowPeek-#{version}.dmg"
   name "FlowPeek"
   desc "Menu-bar Mermaid preview for selected or copied diagram source"
   homepage "https://github.com/FlowPeek/flowpeek"
@@ -13,7 +12,7 @@ cask "flowpeek" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "FlowPeek.app"
 
