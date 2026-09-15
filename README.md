@@ -16,3 +16,11 @@ a broken release.
 
 macOS 14 Sonoma or later. FlowPeek asks for Accessibility permission on first launch and requests
 nothing else — no Screen Recording, no Input Monitoring.
+
+## Contributors
+
+Thanks to everyone who has sent a fix here.
+
+<a href="https://github.com/FlowPeek/homebrew-tap/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=FlowPeek/homebrew-tap" alt="Contributors" />
+</a>
