@@ -1,6 +1,6 @@
 cask "flowpeek" do
-  version "0.25.12"
-  sha256 "d376ee85a13d32433dc9c66b7d226073b96c5a22d0432a6cf4d011edc7161d00"
+  version "0.25.13"
+  sha256 "910dff388ad33479063d6bdcd250ef7c20fbb0b302c09c8aea1e71df991af385"
 
   url "https://github.com/FlowPeek/flowpeek/releases/download/v#{version}/FlowPeek-#{version}.dmg"
   name "FlowPeek"
